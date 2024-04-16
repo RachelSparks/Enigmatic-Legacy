@@ -130,7 +130,7 @@ public final class DevotedBelieversHandler {
 	private static Map<String, UUID> fetchDevotedBelievers() throws IOException {
 		try {
 			String defaultBranch = fetchDefaultBranch();
-			URL url = new URL("https://raw.githubusercontent.com/Fantasiuss/enigbless/main/devoted_believers.json");
+			URL url = new URL("https://github.com/RachelSparks/Enigmatic-Legacy/main/devoted_believers.json");
 			StringBuilder response = new StringBuilder(1000);
 
 			try (Scanner scanner = new Scanner(url.openStream())) {
